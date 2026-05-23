@@ -3,6 +3,7 @@
 ========================= */
 
 @media screen and (max-width: 768px) {
+
     /* Navbar */
     .header {
         padding: 16px 0;
@@ -21,6 +22,33 @@
     .nav-logo img {
         width: 46px;
         height: 46px;
+    }
+
+    /* Hero section */
+    .hero-section {
+        padding: 40px 0 60px;
+    }
+
+    .hero-content {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 32px;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+        line-height: 1.625rem;
+        margin-inline: auto;
+    }
+
+    .hero-btn {
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
 
 }

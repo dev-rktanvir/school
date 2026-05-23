@@ -53,8 +53,59 @@
 .menu-btn {
     display: none;
 }
-.menu-btn img{
+
+.menu-btn img {
     width: 24px;
     height: auto;
     cursor: pointer;
+}
+
+/* =========================
+   Hero Section
+========================= */
+
+.hero-section {
+    padding: 30px 0 80px;
+}
+
+.hero-content {
+    gap: 50px;
+}
+
+/* Left Content */
+
+.hero-text {
+    flex: 1;
+    max-width: 640px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    color: var(--clr-black);
+    margin-bottom: 24px;
+}
+
+.hero-description {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--clr-black);
+    margin-bottom: 32px;
+    max-width: 620px;
+}
+
+.hero-btn {
+    padding-inline: 36px;
+}
+
+/* Right Image */
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    max-width: 100%;
+    object-fit: contain;
 }
