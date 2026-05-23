@@ -73,6 +73,41 @@
         font-size: 1.375rem;
     }
 
+    /* Stories section */
+    .stories-section {
+        padding: 60px 0;
+    }
+
+    .stories-title {
+        margin-bottom: 40px;
+    }
+
+    .stories-grid {
+        gap: 16px;
+    }
+
+    .story-content {
+        padding: 28px 20px 20px;
+    }
+
+    .story-date {
+        left: 20px;
+        padding: 10px 14px;
+        font-size: 0.75rem;
+    }
+
+    .story-sm-title {
+        font-size: 0.95rem;
+        line-height: 1.5rem;
+    }
+
+    .stories-btn-wrapper {
+        margin-top: 40px;
+    }
+
+    .stories-wrapper {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* =========================
@@ -83,6 +118,15 @@
 
     /* Curriculam section */
     .curriculum-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Stories section */
+    .stories-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .stories-grid {
         grid-template-columns: repeat(1, 1fr);
     }
 }
