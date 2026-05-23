@@ -51,10 +51,38 @@
         line-height: 1.5rem;
     }
 
+    /* Curriculam section */
+    .curriculum-section {
+        padding: 60px 0;
+        background-size: cover;
+    }
+
+    .curriculum-title {
+        margin-bottom: 40px;
+    }
+
+    .curriculum-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .curriculum-card {
+        padding: 40px 28px;
+    }
+
+    .curriculum-card-title {
+        font-size: 1.375rem;
+    }
+
 }
 
 /* =========================
    Mobile Device
 ========================= */
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+
+    /* Curriculam section */
+    .curriculum-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

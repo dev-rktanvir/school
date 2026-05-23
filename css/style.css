@@ -109,3 +109,118 @@
     max-width: 100%;
     object-fit: contain;
 }
+
+/* =========================
+   Curriculum Section
+========================= */
+
+.curriculum-section {
+    padding: 80px 0;
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.curriculum-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/* Cards */
+
+.curriculum-cards {
+    gap: 28px;
+}
+
+/* Card */
+
+.curriculum-card {
+    padding: 52px 40px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+/* Card Backgrounds */
+
+.curriculum-card-blue {
+    background: linear-gradient(to bottom,
+            #DEF5FF 0%,
+            #ffffff 40%);
+    border: 1px solid #DEF5FF;
+}
+
+.curriculum-card-orange {
+    background: linear-gradient(to bottom,
+            #FFF4DC 0%,
+            #ffffff 40%);
+    border: 1px solid #FFF4DC;
+}
+
+.curriculum-card-indigo {
+    background: linear-gradient(to bottom,
+            #F2E8FF 0%,
+            #ffffff 40%);
+    border: 1px solid #F2E8FF;
+}
+
+/* Image */
+
+.curriculum-card-image {
+    width: 140px;
+    margin: 0 auto 32px;
+}
+
+/* Title */
+
+.curriculum-card-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    color: var(--clr-black);
+    margin-bottom: 24px;
+}
+
+/* Text */
+
+.curriculum-card-text {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: var(--clr-card-text);
+    margin-bottom: 32px;
+}
+
+/* Read More */
+
+.curriculum-read-more {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+/* Arrow Buttons */
+
+.curriculum-arrow {
+    gap: 16px;
+    margin-top: 80px;
+}
+
+.curriculum-arrow-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.curriculum-arrow-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
