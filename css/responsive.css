@@ -1,0 +1,32 @@
+/* =========================
+   Tablet Device
+========================= */
+
+@media screen and (max-width: 768px) {
+    /* Navbar */
+    .header {
+        padding: 16px 0;
+        border-bottom: 1px solid var(--clr-orange);
+    }
+
+    .nav-menu,
+    .nav-btn {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-logo img {
+        width: 46px;
+        height: 46px;
+    }
+
+}
+
+/* =========================
+   Mobile Device
+========================= */
+
+@media screen and (max-width: 576px) {}

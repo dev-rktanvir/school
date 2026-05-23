@@ -1,0 +1,60 @@
+/* =========================
+   Navbar
+========================= */
+
+.header {
+    padding: 20px 0;
+}
+
+/* Logo */
+
+.nav-logo {
+    gap: 12px;
+}
+
+.nav-logo img {
+    width: 62px;
+    height: 62px;
+    object-fit: contain;
+}
+
+.nav-logo span {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--clr-black);
+}
+
+/* Nav Menu */
+
+.nav-menu {
+    gap: 32px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    opacity: 0.8;
+}
+
+/* Contact Button */
+
+.nav-btn {
+    padding-inline: 36px;
+}
+
+/* Mobile Menu Button */
+
+.menu-btn {
+    display: none;
+}
+.menu-btn img{
+    width: 24px;
+    height: auto;
+    cursor: pointer;
+}
