@@ -108,6 +108,29 @@
     .stories-wrapper {
         grid-template-columns: 1fr;
     }
+
+    /* Footer */
+    .footer-section {
+        padding: 60px 0;
+    }
+
+    .footer-logo h2 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .footer-text {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+
+    .footer-title {
+        margin-bottom: 20px;
+    }
+
+    .footer-menu a {
+        font-size: 1rem;
+    }
 }
 
 /* =========================
@@ -128,5 +151,11 @@
 
     .stories-grid {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Footer */
+    .footer-wrapper {
+        grid-template-columns: 1fr;
+        gap: 50px;
     }
 }

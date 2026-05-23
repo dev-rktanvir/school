@@ -353,3 +353,87 @@
 .stories-btn {
     padding-inline: 36px;
 }
+
+/* =========================
+   Footer Section
+========================= */
+
+.footer-section {
+    background-color: var(--clr-sky-blue);
+    padding: 100px 0 80px;
+    color: var(--clr-white);
+}
+
+/* Layout */
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 80px;
+}
+
+/* Footer Logo */
+
+.footer-logo {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 36px;
+}
+
+.footer-logo img {
+    width: 82px;
+}
+
+.footer-logo h2 {
+    font-weight: 700;
+    font-size: 2.625rem;
+    line-height: 2.5rem;
+}
+
+/* Footer Text */
+
+.footer-text {
+    max-width: 400px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+/* Titles */
+
+.footer-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    margin-bottom: 32px;
+}
+
+/* Menu */
+
+.footer-menu {
+    gap: 20px;
+}
+
+.footer-menu a {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    transition: 0.3s ease;
+}
+
+.footer-menu a:hover {
+    opacity: 0.8;
+}
+
+/* Social */
+
+.social-icons {
+    gap: 12px;
+}
+
+.social-icons a {
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-4px);
+}
