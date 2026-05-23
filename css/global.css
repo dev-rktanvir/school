@@ -1,0 +1,154 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* colors */
+:root {
+    --clr-orange: #FEA301;
+    --clr-black: #111111;
+    --clr-sky-blue: #01ACFD;
+    --clr-cyan: #05D4DF;
+    --clr-indigo: #5D58EF;
+    --clr-card-text: #808080;
+    --clr-white: #ffffff;
+}
+
+/* Global Css */
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Container */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/* Section Title */
+.section-title {
+    font-weight: 700;
+    font-size: 2.875rem;
+    line-height: 3.5625rem;
+    color: var(--clr-black);
+}
+
+/* Button */
+.btn {
+    padding: 10px 24px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--clr-white);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+/* Image */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* Flex Property */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* Grid property */
+.grid {
+    display: grid;
+}
+
+.grid-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Color class */
+.orange-bg {
+    background-color: var(--clr-orange);
+}
+
+.black-bg {
+    background-color: var(--clr-black);
+}
+
+.sky-blue-bg {
+    background-color: var(--clr-sky-blue);
+}
+
+.cyan-bg {
+    background-color: var(--clr-cyan);
+}
+
+.indigo-bg {
+    background-color: var(--clr-indigo);
+}
+
+.orange {
+    color: var(--clr-orange);
+}
+
+.sky-blue {
+    color: var(--clr-sky-blue);
+}
+
+.cyan {
+    color: var(--clr-cyan);
+}
+
+.indigo {
+    color: var(--clr-indigo);
+}
+
+.white {
+    color: var(--clr-white);
+}
